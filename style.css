@@ -1,0 +1,233 @@
+body
+{
+  letter-spacing:0.04em;
+  font-family:sans-serif;
+  color: #2d3c4b;
+
+}
+header
+{
+    background-color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.nav li a:hover,.nav li a:active
+{
+    font-style:bold;
+    color: black;
+}
+.nav-link
+{
+  color: #2d3c4b;
+  font-size: 15px;
+  text-transform: uppercase;
+
+}
+.midsection
+{
+    background-color: #fbfafa;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.card
+{
+   border:0px;
+   background-color: transparent;
+}
+.card h4
+{
+    font-weight: 700;
+    font-size: 30px;
+}
+.card p
+{
+    line-height: 1;
+    font-family: Merriweather;
+}
+.card h5
+{
+    font-size:15px;
+    font-weight: 600;
+}
+.btnmain,.buttonitem2,.buttonitem1
+{
+    background-color:#2d3c4b;
+    color: white;
+    text-align: center;
+    border-radius: 0px 10px 0px 10px;
+    height: 40px;
+    width: 232px;
+    border-style: none;
+    font-size: 12px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.buttonitem1
+{
+    width: 80%;
+}
+.btnmain 
+{
+    text-decoration: none;
+}
+.buttonitem1:hover
+  {
+     background-color:#232f3b;
+  }
+  .buttonitem2
+  {
+    background-color:#d7d1c9;
+    color:#2d3c4b;
+    border-color: #d7d1c9;
+    
+  }
+  .buttonitem2:hover
+  {
+    background-color: #b6ac9d;
+  }
+
+  .followtext
+{
+    background-color:rgb(249, 242, 240);   
+    font-family: emoji;   
+    height: 300px;
+}
+.followtext h3
+{
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+.followtext p
+{
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+    font-family: Merriweather, serif;
+}
+/*footer old css*/
+footer
+{
+    background-color: #2d3c4b;
+    padding-bottom:30px ;
+    padding-top: 80px;
+}
+
+.footer input 
+{
+    background-color: transparent;
+    border: 1px solid #d7d1c9;
+    color: #d7d1c9;
+    border-radius: 0;
+}
+.footer button
+{
+    cursor: pointer;
+    font-size: 10px;
+    padding-left: 0px;
+    min-width: 108px;
+    border-radius: 0;
+    color:#d7d1c9;
+    border: 1px solid #d7d1c9;
+}
+
+.footerh3
+{
+    color: white;
+    margin:0;
+    font-size: 15px;
+    padding: 0px;
+    padding-left: 25px;
+    max-width: 80%;
+}
+
+.footer h5
+{
+color: #d7d1c9;
+font-size: 13px;
+margin-bottom: 12px;
+margin-top: 32px;
+}
+.footer a
+{
+    color: #d7d1c9;
+    font-size: 13px;
+    text-decoration: none;
+}
+.lastrow a
+{
+    color: #d7d1c9;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Roboto,sans-serif;
+}
+.input-group placeholder
+{
+    color: #d7d1c9;
+}
+.fa-instagram,.fa-facebook-f,.fa-spotify
+{
+    color: white;
+    padding-right: 5px;
+}
+.lastsectioncontainerleft
+{ 
+    background-color: #D7D1C9 ;
+}
+.lastsectioncontainerleft h3
+{
+    font-size:32px;
+    font-weight: 700;
+    font-family: Merriweather,serif;
+    margin: 0px;
+}
+.h3stylelast h3
+{
+    font-size:30px;
+    font-weight: 300;
+    font-family: Merriweather,serif;
+    margin:0px;
+}
+.justify
+{
+    justify-items: center;
+}
+
+.gridcontainer1top
+{
+    background-color: #f8f8f8;
+
+}
+.gridcontainer1top h6
+{
+    color:#8c203f;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Merriweather, serif;
+}
+.gridcontainer1 h3
+{
+   font-size:15px;
+   color: #8c203f;
+   font-weight: 600;
+}
+
+.gridcontainer1 hr
+{
+    margin: 0;
+}
+@media(max-width:600px)
+{
+    .footer,.contact
+    {
+        padding-left: 20px;
+    }
+    .followtext
+    {
+        padding-left: 20px;
+    }
+    
+}
